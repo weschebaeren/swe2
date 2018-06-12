@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.erstesFensterController">
+   <children>
+      <Text layoutX="36.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mitarbeiter: ">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fuhrpark:">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lieferanten:">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Artikel:">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="38.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buchung:">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="235.0" layoutY="33.0" mnemonicParsing="false" onAction="#MitarbeiterAnlegen" text="anlegen" />
+      <Button layoutX="361.0" layoutY="33.0" mnemonicParsing="false" onAction="#MitarbeiterAendern" text="ändern" />
+      <Button layoutX="483.0" layoutY="33.0" mnemonicParsing="false" onAction="#MitarbeiterLoeschen" text="löschen" />
+      <Button layoutX="361.0" layoutY="95.0" mnemonicParsing="false" onAction="#FuhrparkAendern" text="ändern" />
+      <Button layoutX="483.0" layoutY="95.0" mnemonicParsing="false" onAction="#FuhrparkLoeschen" text="löschen" />
+      <Button layoutX="235.0" layoutY="152.0" mnemonicParsing="false" onAction="#LieferantenAnlegen" text="anlegen" />
+      <Button layoutX="361.0" layoutY="152.0" mnemonicParsing="false" onAction="#LieferantenAendern" text="ändern" />
+      <Button layoutX="484.0" layoutY="152.0" mnemonicParsing="false" onAction="#LieferantenLoeschen" text="löschen" />
+      <Button layoutX="235.0" layoutY="95.0" mnemonicParsing="false" onAction="#FuhrparkAnlegen" text="anlegen" />
+      <Button layoutX="235.0" layoutY="209.0" mnemonicParsing="false" onAction="#ArtikelAnlegen" text="anlegen" />
+      <Button layoutX="361.0" layoutY="209.0" mnemonicParsing="false" onAction="#ArtikelAendern" text="ändern" />
+      <Button layoutX="484.0" layoutY="209.0" mnemonicParsing="false" onAction="#ArtikelLoeschen" text="löschen" />
+      <Button layoutX="235.0" layoutY="262.0" mnemonicParsing="false" onAction="#BuchungAnlegen" text="anlegen" />
+      <Button fx:id="closeButton" layoutX="36.0" layoutY="342.0" mnemonicParsing="false" onAction="#closeButtonAction" text="zurück" />
+   </children>
+</AnchorPane>
