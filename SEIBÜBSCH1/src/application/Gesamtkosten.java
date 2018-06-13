@@ -7,13 +7,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class KundeAnlegen extends Stage
-{
+public class Gesamtkosten  extends Stage{
 	 Stage stage;
-	    public KundeAnlegen() throws IOException
+	    public Gesamtkosten() throws IOException
 	    {
 	        stage = this;
-	        Parent root = FXMLLoader.load(getClass().getResource("Kunde_neu.fxml"));
+	        Parent root = FXMLLoader.load(getClass().getResource("Gesamtkosten.fxml"));
 	        
 	        Scene scene = new Scene(root);
 	        

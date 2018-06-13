@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.erstesFensterController">
+   <children>
+      <Text layoutX="34.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neuer Kunde">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Text>
+      <ChoiceBox layoutX="317.0" layoutY="27.0" prefWidth="150.0" />
+      <Button fx:id="closeButton" layoutX="34.0" layoutY="345.0" mnemonicParsing="false" onAction="#closeButtonAction" text="zurück" />
+      <Button layoutX="275.0" layoutY="345.0" mnemonicParsing="false" text="speichern" />
+      <Button layoutX="393.0" layoutY="345.0" mnemonicParsing="false" onAction="#BuchungAnlegen" text="speichern + neue Buchung" />
+      <TextField layoutX="34.0" layoutY="86.0" promptText="Vorname" />
+      <TextField layoutX="317.0" layoutY="86.0" promptText="Nachname" />
+      <TextField layoutX="34.0" layoutY="141.0" promptText="Straße" />
+      <TextField layoutX="317.0" layoutY="141.0" promptText="Hausnummer" />
+      <TextField layoutX="34.0" layoutY="200.0" promptText="PLZ" />
+      <TextField layoutX="317.0" layoutY="200.0" promptText="Ort" />
+      <TextField layoutX="34.0" layoutY="257.0" promptText="Bankinstitut" />
+      <TextField layoutX="317.0" layoutY="257.0" promptText="IBAN" />
+      <TextField layoutX="34.0" layoutY="304.0" promptText="Telefonnummer" />
+      <TextField layoutX="317.0" layoutY="304.0" promptText="Firma" />
+   </children>
+</AnchorPane>

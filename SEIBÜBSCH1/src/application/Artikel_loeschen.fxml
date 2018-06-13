@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.erstesFensterController">
    <children>
       <ScrollPane prefHeight="336.0" prefWidth="376.0">
          <content>
@@ -15,7 +15,7 @@
          </content>
       </ScrollPane>
       <ListView prefHeight="316.0" prefWidth="355.0" />
-      <Button layoutX="25.0" layoutY="355.0" mnemonicParsing="false" onAction="#zurueck" text="zurück">
+      <Button fx:id="closeButton" layoutX="25.0" layoutY="355.0" mnemonicParsing="false" onAction="#closeButtonAction" text="zurück">
          <font>
             <Font name="Verdana" size="15.0" />
          </font>

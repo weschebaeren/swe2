@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.gluonhq.charm.glisten.control.TextField?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
@@ -14,19 +14,19 @@
             <Font name="Verdana Bold" size="18.0" />
          </font>
       </Text>
-      <TextField floatText="Vorname" layoutX="32.0" layoutY="73.0" />
-      <TextField floatText="Nachname" layoutX="309.0" layoutY="73.0" />
-      <TextField floatText="Straße" layoutX="32.0" layoutY="125.0" />
-      <TextField floatText="Hausnummer" layoutX="309.0" layoutY="126.0" />
-      <TextField floatText="PLZ" layoutX="32.0" layoutY="176.0" />
-      <TextField floatText="Ort" layoutX="309.0" layoutY="177.0" />
-      <TextField floatText="Bankinstitut" layoutX="32.0" layoutY="227.0" />
-      <TextField floatText="IBAN" layoutX="309.0" layoutY="228.0" />
-      <TextField floatText="Telefonnummer" layoutX="34.0" layoutY="281.0" />
-      <TextField floatText="Firma" layoutX="309.0" layoutY="280.0" />
       <ChoiceBox layoutX="317.0" layoutY="27.0" prefWidth="150.0" />
       <Button layoutX="34.0" layoutY="345.0" mnemonicParsing="false" text="zurück" />
       <Button layoutX="275.0" layoutY="345.0" mnemonicParsing="false" text="speichern" />
       <Button layoutX="393.0" layoutY="345.0" mnemonicParsing="false" text="speichern + neue Buchung" />
+      <TextField layoutX="34.0" layoutY="89.0" promptText="Vorname" />
+      <TextField layoutX="317.0" layoutY="89.0" promptText="Nachname" />
+      <TextField layoutX="34.0" layoutY="143.0" promptText="Straße" />
+      <TextField layoutX="317.0" layoutY="143.0" promptText="Hausnummer" />
+      <TextField layoutX="34.0" layoutY="200.0" promptText="PLZ" />
+      <TextField layoutX="317.0" layoutY="200.0" promptText="Ort" />
+      <TextField layoutX="31.0" layoutY="256.0" promptText="Bankinstitut" />
+      <TextField layoutX="317.0" layoutY="256.0" promptText="IBAN" />
+      <TextField layoutX="34.0" layoutY="303.0" promptText="Telefonnummer" />
+      <TextField layoutX="317.0" layoutY="303.0" promptText="Stundenlohn" />
    </children>
 </AnchorPane>

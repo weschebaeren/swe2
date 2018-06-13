@@ -39,19 +39,7 @@ public class erstesFensterController implements Initializable
     {
     	
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
     @FXML
     void ArtikelAendern(ActionEvent event) throws IOException {
     	new ArtikelAendern();
@@ -93,6 +81,33 @@ public class erstesFensterController implements Initializable
     	new LieferantenAendern();
     }
 
+    @FXML
+    void BuchungLieferant(ActionEvent event) throws IOException{
+    	new BuchungLieferant();
+    }
+    
+    @FXML
+    void BuchungArtikel(ActionEvent event) throws IOException{
+    	new BuchungArtikel();
+    }
+    
+
+    @FXML
+    void Gesamtkosten(ActionEvent event) throws IOException{
+    	new Gesamtkosten();
+    }
+    
+    @FXML
+    void BuchungFuhrpark(ActionEvent event) throws IOException{
+    	new BuchungFuhrpark();
+    }
+    
+    @FXML
+    void BuchungMitarbeiter(ActionEvent event) throws IOException{
+    	new BuchungMitarbeiter();
+    }
+    
+    
     @FXML
     void LieferantenAnlegen(ActionEvent event) throws IOException {
     	new LieferantenAnlegen();
